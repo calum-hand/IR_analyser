@@ -5,7 +5,7 @@
 def ir_database(path_to_file='ir_frequencies.txt'):
 
     with open(path_to_file, 'r') as f:
-        return [line.split(' ') for line in f.readlines()]
+        return [line.split('|') for line in f.readlines()]
 
 
 ########################################################################################################################
