@@ -1,0 +1,101 @@
+min_wavenumber max_wavenumber Appearance Group Compound Class Comments
+3584 3700 medium sharp O-H stretching alcohol free
+3200 3550 strong broad O-H stretching alcohol intermolecular bonded
+3500 3501 medium N-H stretching primary amine
+3300 3400 medium N-H stretching aliphatic primary amine
+3310 3350 medium N-H stretching secondary amine
+2500 3300 strong broad O-H stretching carboxylic acid usually centered on 3000 cm-1
+2700 3200 weak broad O-H stretching alcohol intramolecular bonded
+2800 3000 strong broad N-H stretching amine salt
+3267 3333 strong sharp C-H stretching alkyne
+3000 3100 medium C-H stretching alkene
+2840 3000 medium C-H stretching alkane
+2695 2830 medium C-H stretching aldehyde doublet
+2550 2600 weak S-H stretching thiol
+2349 2350 strong O=C=O stretching carbon dioxide
+2250 2275 strong broad N=C=O stretching isocyanate
+2222 2260 weak C?N stretching nitrile
+2190 2260 weak C?C stretching alkyne disubstituted
+2140 2175 strong S-C?N stretching thiocyanate
+2120 2160 strong N=N=N stretching azide
+2150 2151  C=C=O stretching ketene
+2120 2145 strong N=C=N stretching carbodiimide
+2100 2140 weak C?C stretching alkyne monosubstituted
+1990 2140 strong N=C=S stretching isothiocyanate
+1900 2000 medium C=C=C stretching allene
+2000 2001  C=C=N stretching ketenimine
+1650 2000 weak C-H bending aromatic compound overtone
+1818 1819 strong C=O stretching anhydride
+1785 1815 strong C=O stretching acid halide
+1770 1800 strong C=O stretching conjugated acid halide
+1775 1776 strong C=O stretching conjugated anhydride
+1770 1780 strong C=O stretching vinyl / phenyl ester
+1760 1761 strong C=O stretching carboxylic acid monomer
+1735 1750 strong C=O stretching esters 6-membered lactone
+1735 1750 strong C=O stretching ?-lactone ?: 1770
+1745 1746 strong C=O stretching cyclopentanone
+1720 1740 strong C=O stretching aldehyde
+1715 1730 strong C=O stretching a,b-unsaturated ester or formates
+1705 1725 strong C=O stretching aliphatic ketone or cyclohexanone or cyclopentenone
+1706 1720 strong C=O stretching carboxylic acid dimer
+1680 1710 strong C=O stretching conjugated acid dimer
+1685 1710 strong C=O stretching conjugated aldehyde
+1690 1691 strong C=O stretching primary amide free (associated: 1650)
+1640 1690 medium C=N stretching imine / oxime
+1666 1685 strong C=O stretching conjugated ketone
+1680 1681 strong C=O stretching secondary amide free (associated: 1640)
+1680 1681 strong C=O stretching tertiary amide free (associated: 1630)
+1650 1651 strong C=O stretching ?-lactam ?: 1750-1700 ?: 1760-1730
+1668 1678 weak C=C stretching alkene disubstituted (trans)
+1665 1675 weak C=C stretching alkene trisubstituted
+1665 1675 weak C=C stretching alkene tetrasubstituted
+1626 1662 medium C=C stretching alkene disubstituted (cis)
+1648 1658 medium C=C stretching alkene vinylidene
+1600 1650 medium C=C stretching conjugated alkene
+1580 1650 medium N-H bending amine
+1566 1650 medium C=C stretching cyclic alkene
+1638 1648 strong C=C stretching alkene monosubstituted
+1610 1620 strong C=C stretching a,b-unsaturated ketone
+1500 1550 strong N-O stretching nitro compound
+1465 1466 medium C-H bending alkane methylene group
+1450 1465 medium C-H bending alkane methyl group
+1380 1390 medium C-H bending aldehyde
+1380 1385 medium C-H bending alkane gem dimethyl
+1395 1440 medium O-H bending carboxylic acid
+1330 1420 medium O-H bending alcohol
+1380 1415 strong S=O stretching sulfate
+1380 1410 strong S=O stretching sulfonyl chloride
+1000 1400 strong C-F stretching fluoro compound
+1310 1390 medium O-H bending phenol
+1335 1372 strong S=O stretching sulfonate
+1335 1370 strong S=O stretching sulfonamide
+1342 1350 strong S=O stretching sulfonic acid anhydrous
+1150 1165    hydrate: 1230-1120
+1300 1350 strong S=O stretching sulfone
+1266 1342 strong C-N stretching aromatic amine
+1250 1310 strong C-O stretching aromatic ester
+1200 1275 strong C-O stretching alkyl aryl ether
+1020 1250 medium C-N stretching amine
+1200 1225 strong C-O stretching vinyl ether
+1163 1210 strong C-O stretching ester
+1124 1205 strong C-O stretching tertiary alcohol
+1085 1150 strong C-O stretching aliphatic ether
+1087 1124 strong C-O stretching secondary alcohol
+1050 1085 strong C-O stretching primary alcohol
+1030 1070 strong S=O stretching sulfoxide
+1040 1050 strong broad CO-O-CO stretching anhydride
+985 995 strong C=C bending alkene monosubstituted
+960 980 strong C=C bending alkene disubstituted (trans)
+885 895 strong C=C bending alkene vinylidene
+550 850 strong C-Cl stretching halo compound
+790 840 medium C=C bending alkene trisubstituted
+665 730 strong C=C bending alkene disubstituted (cis)
+515 690 strong C-Br stretching halo compound
+500 600 strong C-I stretching halo compound
+860 900 strong C-H bending 1,2,4-trisubstituted
+860 900 strong C-H bending 1,3-disubstituted
+790 830 strong C-H bending 1,4-disubstituted or
+760 800 strong C-H bending 1,2,3-trisubstituted
+735 775 strong C-H bending 1,2-disubstituted
+730 770 strong C-H bending monosubstituted
+680 720   benzene derivative
