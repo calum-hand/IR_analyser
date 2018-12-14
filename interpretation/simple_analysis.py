@@ -1,18 +1,17 @@
 ########################################################################################################################
-# Function : Reads text file and then returns as nested array including headers
 
 
 def ir_database(path_to_file='ir_frequencies.txt'):
-
+    """Reads text file and then returns as nested array including headers"""
     with open(path_to_file, 'r') as f:
         return [line.split('|') for line in f.readlines()]
 
 
 ########################################################################################################################
-# Function : takes user frequencies and returns them in a list when user specifies is complete
 
 
 def user_frequencies():
+    """Takes user frequencies and returns them in a list when user specifies is complete"""
     user_input = []
     while True:
         entry = input('Please enter wavenumber (cm^-1) or \'run\'  : ')
@@ -25,10 +24,10 @@ def user_frequencies():
 
 
 ########################################################################################################################
-# Function : Takes user input as input then parses loaded IR database for relevant rows, will then return relevant rows
 
 
 def ir_database_parser(user_input_list, ir_data):
+    """Takes user input as input then parses loaded IR database for relevant rows, will then return relevant row"""
     parsed_frequencies = [['User_input']+ir_data[0]]  # add headers to the array that will be returned
     for user_freq in user_input_list:  # for every frequency inputted by the user
         for entry in ir_data[1:]:  # for every row in the loaded IR database (excluding the headers)
@@ -39,10 +38,10 @@ def ir_database_parser(user_input_list, ir_data):
 
 
 ########################################################################################################################
-# Function : Takes nested list as input and writes the result to a txt file with name specified by the user
 
 
 def results_writer(filtered_ir):
+    """Takes nested list as input and writes the result to a txt file with name specified by the user"""
     while True:
         user_file_name = input('Please enter a file name to save results to: ')
         if user_file_name.isalpha():
@@ -59,10 +58,10 @@ def results_writer(filtered_ir):
     print('file written')
 
 ########################################################################################################################
-# Main : Takes database file and user input to parse the database file, return a trimmed file and then save to new txt
 
 
 def main():
+    """Takes database file and user input to parse the database file, return a trimmed file and then save to new txt"""
     returned_analysis = ir_database_parser(user_frequencies(), ir_database())  # create filtered list of wavenumbers
     results_writer(returned_analysis)  # write the filtered list of wavenumbers to a file
 
