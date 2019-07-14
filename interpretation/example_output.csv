@@ -1,0 +1,11 @@
+user,min_abs(cm-1),max_abs(cm-1),Appearance,Group,Compound_Class,Comments
+3501,3500,3502,medium,N-H stretching,primary amine,
+3501,3201,3550,strong  broad,O-H stretching,alcohol,intermolecular bonded
+1678,1670,1691,strong,C=O stretching,secondary amide,free (associated: 1640)
+1678,1670,1691,strong,C=O stretching,tertiary amide,free (associated: 1630)
+1678,1670,1691,strong,C=O stretching,δ-lactam,γ: 1750-1700 β: 1760-1730
+1678,1669,1678,weak,C=C stretching,alkene,disubstituted (trans)
+1678,1667,1685,strong,C=O stretching,conjugated ketone,
+1678,1651,2000,weak,C-H bending,aromatic compound,overtone
+1678,1641,1690,medium,C=N stretching,imine / oxime,
+2345,2339,2360,strong,O=C=O stretching,carbon dioxide,

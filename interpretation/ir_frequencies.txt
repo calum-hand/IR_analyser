@@ -1,101 +1,101 @@
-min_absorption(cm-1)|max_absorption(cm-1)|Appearance|Group|Compound_Class|Comments
-3700|3585|medium  sharp|O-H stretching|alcohol|free
-3550|3201|strong  broad|O-H stretching|alcohol|intermolecular bonded
+min_abs(cm-1)|max_abs(cm-1)|Appearance|Group|Compound_Class|Comments
+3585|3700|medium  sharp|O-H stretching|alcohol|free
 3500|3502|medium|N-H stretching|primary amine|
-3400|3301|medium|N-H stretching|aliphatic primary amine|
-3350|3311|medium|N-H stretching|secondary amine|
-3300|2501|strong  broad|O-H stretching|carboxylic acid|usually centered on 3000 cm-1
-3200|2701|weak  broad|O-H stretching|alcohol|intramolecular bonded
-3000|2801|strong  broad|N-H stretching|amine salt|
-3333|3268|strong  sharp|C-H stretching|alkyne|
-3100|3001|medium|C-H stretching|alkene|
-3000|2841|medium|C-H stretching|alkane|
-2830|2696|medium|C-H stretching|aldehyde|doublet
-2600|2551|weak|S-H stretching|thiol|
+3311|3350|medium|N-H stretching|secondary amine|
+3301|3400|medium|N-H stretching|aliphatic primary amine|
+3268|3333|strong  sharp|C-H stretching|alkyne|
+3201|3550|strong  broad|O-H stretching|alcohol|intermolecular bonded
+3001|3100|medium|C-H stretching|alkene|
+2841|3000|medium|C-H stretching|alkane|
+2801|3000|strong  broad|N-H stretching|amine salt|
+2701|3200|weak  broad|O-H stretching|alcohol|intramolecular bonded
+2696|2830|medium|C-H stretching|aldehyde|doublet
+2551|2600|weak|S-H stretching|thiol|
+2501|3300|strong  broad|O-H stretching|carboxylic acid|usually centered on 3000 cm-1
 2339|2360|strong|O=C=O stretching|carbon dioxide|
-2275|2251|strong  broad|N=C=O stretching|isocyanate|
-2260|2223|weak|CΞN stretching|nitrile|
-2260|2191|weak|CΞC stretching|alkyne|disubstituted
-2175|2141|strong|S-CΞN stretching|thiocyanate|
-2160|2121|strong|N=N=N stretching|azide|
-2140|2131||C=C=O stretching|ketene|
-2145|2121|strong|N=C=N stretching|carbodiimide|
-2140|2101|weak|CΞC stretching|alkyne|monosubstituted
-2140|1991|strong|N=C=S stretching|isothiocyanate|
-2000|1901|medium|C=C=C stretching|allene|
+2251|2275|strong  broad|N=C=O stretching|isocyanate|
+2223|2260|weak|CΞN stretching|nitrile|
+2191|2260|weak|CΞC stretching|alkyne|disubstituted
+2141|2175|strong|S-CΞN stretching|thiocyanate|
+2131|2140||C=C=O stretching|ketene|
+2121|2160|strong|N=N=N stretching|azide|
+2121|2145|strong|N=C=N stretching|carbodiimide|
+2101|2140|weak|CΞC stretching|alkyne|monosubstituted
+1991|2140|strong|N=C=S stretching|isothiocyanate|
 1990|2011||C=C=N stretching|ketenimine|
-2000|1651|weak|C-H bending|aromatic compound|overtone
+1901|2000|medium|C=C=C stretching|allene|
 1818|1829|strong|C=O stretching|anhydride|
-1815|1786|strong|C=O stretching|acid halide|
-1800|1771|strong|C=O stretching|conjugated acid halide|
-1765|1786|strong|C=O stretching|conjugated anhydride|
+1786|1815|strong|C=O stretching|acid halide|
+1771|1800|strong|C=O stretching|conjugated acid halide|
 1770|1781|strong|C=O stretching|vinyl / phenyl ester|
+1765|1786|strong|C=O stretching|conjugated anhydride|
 1750|1771|strong|C=O stretching|carboxylic acid|monomer
-1750|1736|strong|C=O stretching|esters|6-membered lactone
-1750|1736|strong|C=O stretching|δ-lactone|γ: 1770
+1736|1750|strong|C=O stretching|esters|6-membered lactone
+1736|1750|strong|C=O stretching|δ-lactone|γ: 1770
 1735|1756|strong|C=O stretching|cyclopentanone|
-1740|1721|strong|C=O stretching|aldehyde|
-1730|1716|strong|C=O stretching|α,β-unsaturated ester|or formates
-1725|1706|strong|C=O stretching|aliphatic ketone|or cyclohexanone or cyclopentenone
-1720|1707|strong|C=O stretching|carboxylic acid|dimer
-1710|1681|strong|C=O stretching|conjugated acid|dimer
-1710|1686|strong|C=O stretching|conjugated aldehyde|
+1721|1740|strong|C=O stretching|aldehyde|
+1716|1730|strong|C=O stretching|α,β-unsaturated ester|or formates
+1707|1720|strong|C=O stretching|carboxylic acid|dimer
+1706|1725|strong|C=O stretching|aliphatic ketone|or cyclohexanone or cyclopentenone
+1686|1710|strong|C=O stretching|conjugated aldehyde|
+1681|1710|strong|C=O stretching|conjugated acid|dimer
 1680|1701|strong|C=O stretching|primary amide|free (associated: 1650)
-1690|1641|medium|C=N stretching|imine / oxime|
-1685|1667|strong|C=O stretching|conjugated ketone|
 1670|1691|strong|C=O stretching|secondary amide|free (associated: 1640)
 1670|1691|strong|C=O stretching|tertiary amide|free (associated: 1630)
 1670|1691|strong|C=O stretching|δ-lactam|γ: 1750-1700 β: 1760-1730
-1678|1669|weak|C=C stretching|alkene|disubstituted (trans)
-1675|1666|weak|C=C stretching|alkene|trisubstituted
-1675|1666|weak|C=C stretching|alkene|tetrasubstituted
-1662|1627|medium|C=C stretching|alkene|disubstituted (cis)
-1658|1649|medium|C=C stretching|alkene|vinylidene
-1650|1601|medium|C=C stretching|conjugated alkene|
-1650|1581|medium|N-H bending|amine|
-1650|1567|medium|C=C stretching|cyclic alkene|
-1648|1639|strong|C=C stretching|alkene|monosubstituted
-1620|1611|strong|C=C stretching|α,β-unsaturated ketone|
-1550|1501|strong|N-O stretching|nitro compound|
+1669|1678|weak|C=C stretching|alkene|disubstituted (trans)
+1667|1685|strong|C=O stretching|conjugated ketone|
+1666|1675|weak|C=C stretching|alkene|trisubstituted
+1666|1675|weak|C=C stretching|alkene|tetrasubstituted
+1651|2000|weak|C-H bending|aromatic compound|overtone
+1649|1658|medium|C=C stretching|alkene|vinylidene
+1641|1690|medium|C=N stretching|imine / oxime|
+1639|1648|strong|C=C stretching|alkene|monosubstituted
+1627|1662|medium|C=C stretching|alkene|disubstituted (cis)
+1611|1620|strong|C=C stretching|α,β-unsaturated ketone|
+1601|1650|medium|C=C stretching|conjugated alkene|
+1581|1650|medium|N-H bending|amine|
+1567|1650|medium|C=C stretching|cyclic alkene|
+1501|1550|strong|N-O stretching|nitro compound|
 1465|1476|medium|C-H bending|alkane|methylene group
 1440|1461|medium|C-H bending|alkane|methyl group
-1390|1381|medium|C-H bending|aldehyde|
-1385|1381|medium|C-H bending|alkane|gem dimethyl
-1440|1396|medium|O-H bending|carboxylic acid|
-1420|1331|medium|O-H bending|alcohol|
-1415|1381|strong|S=O stretching|sulfate|
-1410|1381|strong|S=O stretching|sulfonyl chloride|
-1400|1001|strong|C-F stretching|fluoro compound|
-1390|1311|medium|O-H bending|phenol|
-1372|1336|strong|S=O stretching|sulfonate|
-1370|1336|strong|S=O stretching|sulfonamide|
-1350|1343|strong|S=O stretching|sulfonic acid|anhydrous
-1165|1151||||hydrate: 1230-1120
-1350|1301|strong|S=O stretching|sulfone|
-1342|1267|strong|C-N stretching|aromatic amine|
-1310|1251|strong|C-O stretching|aromatic ester|
-1275|1201|strong|C-O stretching|alkyl aryl ether|
-1250|1021|medium|C-N stretching|amine|
-1225|1201|strong|C-O stretching|vinyl ether|
-1210|1164|strong|C-O stretching|ester|
-1205|1125|strong|C-O stretching|tertiary alcohol|
-1150|1086|strong|C-O stretching|aliphatic ether|
-1124|1088|strong|C-O stretching|secondary alcohol|
-1085|1051|strong|C-O stretching|primary alcohol|
-1070|1031|strong|S=O stretching|sulfoxide|
-1050|1041|strong  broad|CO-O-CO stretching|anhydride|
-995|986|strong|C=C bending|alkene|monosubstituted
-980|961|strong|C=C bending|alkene|disubstituted (trans)
-895|886|strong|C=C bending|alkene|vinylidene
-850|551|strong|C-Cl stretching|halo compound|
-840|791|medium|C=C bending|alkene|trisubstituted
-730|666|strong|C=C bending|alkene|disubstituted (cis)
-690|516|strong|C-Br stretching|halo compound|
-600|501|strong|C-I stretching|halo compound|
+1396|1440|medium|O-H bending|carboxylic acid|
+1381|1390|medium|C-H bending|aldehyde|
+1381|1385|medium|C-H bending|alkane|gem dimethyl
+1381|1415|strong|S=O stretching|sulfate|
+1381|1410|strong|S=O stretching|sulfonyl chloride|
+1343|1350|strong|S=O stretching|sulfonic acid|anhydrous
+1336|1372|strong|S=O stretching|sulfonate|
+1336|1370|strong|S=O stretching|sulfonamide|
+1331|1420|medium|O-H bending|alcohol|
+1311|1390|medium|O-H bending|phenol|
+1301|1350|strong|S=O stretching|sulfone|
+1267|1342|strong|C-N stretching|aromatic amine|
+1251|1310|strong|C-O stretching|aromatic ester|
+1201|1275|strong|C-O stretching|alkyl aryl ether|
+1201|1225|strong|C-O stretching|vinyl ether|
+1164|1210|strong|C-O stretching|ester|
+1151|1165||||hydrate: 1230-1120
+1125|1205|strong|C-O stretching|tertiary alcohol|
+1088|1124|strong|C-O stretching|secondary alcohol|
+1086|1150|strong|C-O stretching|aliphatic ether|
+1051|1085|strong|C-O stretching|primary alcohol|
+1041|1050|strong  broad|CO-O-CO stretching|anhydride|
+1031|1070|strong|S=O stretching|sulfoxide|
+1021|1250|medium|C-N stretching|amine|
+1001|1400|strong|C-F stretching|fluoro compound|
+986|995|strong|C=C bending|alkene|monosubstituted
+961|980|strong|C=C bending|alkene|disubstituted (trans)
+886|895|strong|C=C bending|alkene|vinylidene
 860|901|strong|C-H bending|1,2,4-trisubstituted|
 860|901|strong|C-H bending|1,3-disubstituted|
+791|840|medium|C=C bending|alkene|trisubstituted
 790|831|strong|C-H bending|1,4-disubstituted or|
 760|801|strong|C-H bending|1,2,3-trisubstituted|
 735|776|strong|C-H bending|1,2-disubstituted|
 730|771|strong|C-H bending|monosubstituted|
 680|721|||benzene derivative|
+666|730|strong|C=C bending|alkene|disubstituted (cis)
+551|850|strong|C-Cl stretching|halo compound|
+516|690|strong|C-Br stretching|halo compound|
+501|600|strong|C-I stretching|halo compound|
