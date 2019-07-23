@@ -1,7 +1,37 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-from scipy.signal import find_peaks
+
+########################################################################################################################
+
+
+def peak_finder(data, n=10):
+    """
+    Similar to Scipy's find peaks function only this is cobbled together myself, and can hopefully apply it to my bugger
+    of a problem (revise commenting).
+    Checks all elements of a passed list and sees if they are the highest value in a +- n range, if yes then appends
+    peak index to be returned
+    :param data: list/array, 1D array of integers
+    :param n: int, sets the range of the area for each data element to be compared against
+    :return: list, indices of peak positions
+    """
+    peaks = []
+
+    for d_index, i in enumerate(data):
+        n_range = data[d_index - n:d_index + n]
+        highest_peak = np.sum(i >= n_range)
+        if highest_peak == 2 * n:
+            peaks.append(d_index)
+
+    return peaks
+
+
+########################################################################################################################
+
+
+
+
+
 
 plt.rcParams['figure.figsize'] = (15,5)
 
