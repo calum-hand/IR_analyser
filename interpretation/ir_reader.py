@@ -18,9 +18,9 @@ def peak_finder(data, n=10):
     peaks = []
 
     for d_index, i in enumerate(data):
-        n_range = data[d_index - n:d_index + n]
-        highest_peak = np.sum(i >= n_range)
-        if highest_peak == 2 * n:
+        n_range = data[d_index - n : d_index + n]  # get index specific range of elements for comparison
+        highest_peak = np.sum(i >= n_range)  # summaiton of booleans
+        if highest_peak == 2 * n:  # if the peak is greater than or equal to (accounting for itself) 2 * range
             peaks.append(d_index)
 
     return peaks
