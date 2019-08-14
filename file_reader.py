@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 from scipy.signal import find_peaks
+#import matplotlib.pyplot as plt  # testing output only
 
 ########################################################################################################################
 
@@ -45,6 +46,9 @@ def ir_peak_locator(data, range_min, range_max):
         peak_locations = find_peaks(data, distance=i)[0]  # not interested in peak properties so only need locations
 
         if len(peak_locations) <= minimum_permitted_peaks:
+            #plt.plot(data, '.')  # testing output only
+            #plt.plot(peak_locations, data[peak_locations], 'x')  # testing output only
+            #plt.show()  # testing output only
             relative_peaks_percent = peak_locations[::-1] / len(data)  # image is upside down so need to invert range
             wavenumbers_range = range_max - range_min
             rebased_peak_locations = range_min + (relative_peaks_percent * wavenumbers_range)  # calculate wavenumbers
