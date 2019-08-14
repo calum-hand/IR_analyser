@@ -16,7 +16,7 @@ def spectrum_image_data(path_to_image):
     :return: numpy.ndarray, the sequential intensity values of the retrieved IR data
     """
     im = cv2.imread(path_to_image)  # read image as numpy array
-    rgb_filter_value = 245
+    rgb_filter_value = 235
     y, x, z = np.where(im < rgb_filter_value)  # get indices where the value is non white / white noise
     sorted = np.argsort(x)  # sort the index values to read left to right top to bottom
     y = y[sorted]  # re-sort
