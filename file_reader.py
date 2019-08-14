@@ -53,7 +53,7 @@ def ir_peak_locator(data, range_min, range_max):
 
 ########################################################################################################################
 
-ir_data = spectrum_image_data('test_ir.PNG')
-peaks = ir_peak_locator(ir_data, 500, 3500)
+ir_data = spectrum_image_data('Test_Spectra/nt_trim.jpg')
+peaks = ir_peak_locator(ir_data, 400, 4000)
 print(peaks)
 
